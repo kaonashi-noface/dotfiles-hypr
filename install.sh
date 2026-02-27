@@ -16,7 +16,7 @@ pacman -S --needed base-devel \
 rustup default stable
 # Install the latest stable version of NodeJS
 nvm install --lts
-nvm alias default node
+nvm alias default "lts/*"
 
 # TODO: add paru compilation steps here later...
 
