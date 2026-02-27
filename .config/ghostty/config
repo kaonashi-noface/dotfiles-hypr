@@ -1,0 +1,10 @@
+# ==========================
+# GHOSTTY CONFIGURATION FILE
+# ==========================
+# # The config file consists of simple key-value pairs,
+# # separated by equals signs.
+font-family = "FiraCode"
+font-style = Bold
+
+
+
