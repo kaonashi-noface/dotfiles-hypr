@@ -8,7 +8,7 @@ pacman -S --needed base-devel \
     qt6-declarative qt5-declarative qt6-5compat \
     qt5-graphicaleffects qt5-quickcontrols2 \
     git zsh nvim less tree opencode \
-    rustup nvm \
+    rustup nvm lua \
     yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick \
     ttf-meslo-nerd
 
