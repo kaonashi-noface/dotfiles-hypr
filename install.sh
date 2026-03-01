@@ -11,11 +11,7 @@ pacman -S --needed base-devel linux-headers linux-lts-headers \
     git github-cli cava opencode \
     ttf-meslo-nerd ttf-fira-code
 
-# sudo pacman -S sddm xorg-server xorg-xinit
-
-# sudo pacman -S qt6-base qt6-declarative qt6-tools qt6-svg qt6-translations qt6-wayland
-
-# Install the lastest stable version of rust
+# Install the lasest stable version of Rust
 rustup default stable
 # Install the latest stable version of NodeJS
 nvm install --lts
