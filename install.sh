@@ -4,12 +4,12 @@
 pacman -S --needed base-devel linux-headers linux-lts-headers \
     nvidia-utils nvidia-settings mesa-utils nvidia-dkms \
     xorg-server xorg-xinit sddm \
-    qt6-base qt6-declarative qt6-tools \
-    qt6-svg qt6-wayland qt6-translations \
+    qt6-base qt6-declarative qt6-svg \
+    qt6-multimedia-ffmpeg qt6-virtualkeyboard \
     zsh nvim less tree yazi zip unzip \
     rustup nvm lua \
     git github-cli cava opencode \
-    ttf-meslo-nerd ttf-fira-code
+    ttf-meslo-nerd ttf-firacode-nerd
 
 # Install the lasest stable version of Rust
 rustup default stable
@@ -23,7 +23,7 @@ cd paru # replace with pushd
 makepkg -si
 # TODO: add proper popd & clean up steps
 
-paru -S brave-bin
+paru -S zen-browser-bin
 
 
 # TODO: automate everything else...
